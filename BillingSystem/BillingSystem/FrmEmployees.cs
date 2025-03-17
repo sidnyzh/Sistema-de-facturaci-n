@@ -1,28 +1,29 @@
-﻿using System.Data;
+﻿using MaterialSkin.Controls;
+using System.Data;
 
 namespace BillingSystem
 {
-    public partial class FrmClients : Form
+    public partial class FrmEmployees : MaterialForm
     {
-        public FrmClients()
+        public FrmEmployees()
         {
             InitializeComponent();
         }
 
-        public int IdClient { get; set; }
+        public int IdEmployee { get; set; }
 
         DataTable dt = new DataTable();
         DataAccess dataAccess = new DataAccess();
 
-        private void Fill_Client()
+        private void Fill_Employees()
         {
-            if (IdClient == 0)
+            if (IdEmployee == 0)
             {
-                lblTitulo.Text = "INGRESO NUEVO CLIENTE";
+                lblTitulo.Text = "INGRESO NUEVO EMPLEADO";
             }
             else
             {
-                string sentencia = $"SELECT * from TBLCLIENTES where IdCliente = {IdClient}";
+                string sentencia = $"SELECT * from TBLEMPLEADO where IdEmpleado = {IdEmployee}";
 
                 dt = dataAccess.EjecutarComandoDatos(sentencia);
 
@@ -33,37 +34,13 @@ namespace BillingSystem
                     txtAddress.Text = row[3].ToString();
                     txtPhone.Text = row[4].ToString();
                     txtEmail.Text = row[5].ToString();
+                    txtRol.Text = row[6].ToString();
+                    txtIngreso.Text = row[7].ToString();
+                    txtRetiro.Text = row[8].ToString();
+                    txtAditionalData.Text = row[9].ToString();
+
                 }
             }
-        }
-        private void kryptonButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-            Guardar();
-        }
-
-        private void btnNew_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgClients_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void txtName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void kryptonRichTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -71,14 +48,15 @@ namespace BillingSystem
             this.Close();
         }
 
-        private void FrmClients_Load(object sender, EventArgs e)
+
+        private void FrmEmployees_Load(object sender, EventArgs e)
         {
-            Fill_Client();
+            Fill_Employees();
         }
 
-        private void lblTitulo_Click(object sender, EventArgs e)
+        private void btnUpdate_Click(object sender, EventArgs e)
         {
-
+            Guardar();
         }
 
         public bool Guardar()
@@ -89,7 +67,7 @@ namespace BillingSystem
                 try
                 {
                     DataAccess Acceso = new DataAccess();
-                    string sentencia = $"Exec [actualizar_Cliente] {IdClient},'{txtName.Text}',{txtDocument.Text} ,'{txtAddress.Text}','{txtPhone.Text}', '{txtEmail.Text}','Javier','{DateTime.Now.ToString("yyyy-MM-dd")}'";
+                    string sentencia = $"Exec [actualizar_Empleado] {IdEmployee},'{txtName.Text}',{txtDocument.Text} ,'{txtAddress.Text}','{txtPhone.Text}', '{txtEmail}','Javier','{DateTime.Now.ToString("yyyy-MM-dd")}'";
                     MessageBox.Show(Acceso.EjecutarComando(sentencia));
                     actualizado = true;
                 }
@@ -107,7 +85,7 @@ namespace BillingSystem
             Boolean errorCampos = true;
             if (txtName.Text == string.Empty)
             {
-                errorMessage.SetError(txtName, "debe ingresar el nombre del Cliente");
+                errorMessage.SetError(txtName, "debe ingresar el nombre del empleado");
                 txtName.Focus();
                 errorCampos = false;
             }

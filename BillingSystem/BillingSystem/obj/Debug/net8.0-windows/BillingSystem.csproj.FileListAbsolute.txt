@@ -39,3 +39,5 @@ C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSy
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmBillsList.resources
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmEmployeesList.resources
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmSecurityManager.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmBilling.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmEmployees.resources

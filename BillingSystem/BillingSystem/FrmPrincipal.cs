@@ -120,5 +120,17 @@ namespace BillingSystem
             FrmCategoriesList frmCategoriesList = new FrmCategoriesList();
             OpenForm(frmCategoriesList);
         }
+
+        private void btnBills_Click(object sender, EventArgs e)
+        {
+            FrmBillsList frmBillsList = new FrmBillsList();
+            OpenForm(frmBillsList);
+        }
+
+        private void btnEmployees_Click(object sender, EventArgs e)
+        {
+            FrmEmployeesList frmEmployees = new FrmEmployeesList();
+            OpenForm(frmEmployees);
+        }
     }
 }
