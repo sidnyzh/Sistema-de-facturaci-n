@@ -37,6 +37,7 @@
             btnLogin = new Button();
             lnkForgotPassword = new Krypton.Toolkit.KryptonLinkLabel();
             pictureBox1 = new PictureBox();
+            btnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -66,6 +67,7 @@
             txtUsername.RightToLeft = RightToLeft.No;
             txtUsername.Size = new Size(200, 23);
             txtUsername.TabIndex = 4;
+            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // txtPassword
             // 
@@ -74,8 +76,10 @@
             txtPassword.Cursor = Cursors.Hand;
             txtPassword.Location = new Point(100, 345);
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(200, 23);
             txtPassword.TabIndex = 5;
+            txtPassword.TextChanged += txtPassword_TextChanged;
             // 
             // checkBox1
             // 
@@ -89,22 +93,23 @@
             checkBox1.TabIndex = 6;
             checkBox1.Text = "Mostrar contraseña";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // btnLogin
             // 
             btnLogin.BackColor = Color.FromArgb(128, 128, 255);
             btnLogin.ForeColor = SystemColors.ButtonHighlight;
-            btnLogin.Location = new Point(100, 466);
+            btnLogin.Location = new Point(100, 446);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(200, 23);
             btnLogin.TabIndex = 7;
             btnLogin.Text = "Iniciar Sesión";
             btnLogin.UseVisualStyleBackColor = false;
-            btnLogin.Click += this.btnLogin_Click;
+            btnLogin.Click += btnLogin_Click;
             // 
             // lnkForgotPassword
             // 
-            lnkForgotPassword.Location = new Point(122, 509);
+            lnkForgotPassword.Location = new Point(130, 539);
             lnkForgotPassword.Name = "lnkForgotPassword";
             lnkForgotPassword.Size = new Size(136, 20);
             lnkForgotPassword.TabIndex = 8;
@@ -120,12 +125,25 @@
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 
-            // Login
+            // btnCancel
+            // 
+            btnCancel.BackColor = Color.DarkGray;
+            btnCancel.ForeColor = SystemColors.ButtonHighlight;
+            btnCancel.Location = new Point(100, 488);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(200, 23);
+            btnCancel.TabIndex = 10;
+            btnCancel.Text = "Cancelar";
+            btnCancel.UseVisualStyleBackColor = false;
+            btnCancel.Click += btnCancel_Click;
+            // 
+            // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(400, 600);
+            Controls.Add(btnCancel);
             Controls.Add(pictureBox1);
             Controls.Add(lnkForgotPassword);
             Controls.Add(btnLogin);
@@ -134,7 +152,7 @@
             Controls.Add(txtUsername);
             Controls.Add(lblTittle);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Login";
+            Name = "frmLogin";
             Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
@@ -153,5 +171,6 @@
         private Button btnLogin;
         private Krypton.Toolkit.KryptonLinkLabel lnkForgotPassword;
         private PictureBox pictureBox1;
+        private Button btnCancel;
     }
 }

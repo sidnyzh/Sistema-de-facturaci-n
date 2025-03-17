@@ -9,7 +9,6 @@ C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSy
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\MetroFramework.Fonts.dll
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\MetroFramework.dll
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.csproj.AssemblyReference.cache
-C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmClients.resources
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmPrincipal.resources
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.Properties.Resources.resources
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.csproj.GenerateResource.cache
@@ -24,3 +23,19 @@ C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSy
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.genruntimeconfig.cache
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\ref\BillingSystem.dll
 C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.frmLogin.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.sourcelink.json
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmClients.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmClientsList.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmProductsList.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmProducts.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmCategories.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmCategoriesList.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmBillsList.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmEmployeesList.resources
+C:\Users\Sidny\Documents\Pascual Bravo\Herramientas de programación 3\BillingSystem\BillingSystem\obj\Debug\net8.0-windows\BillingSystem.FrmSecurityManager.resources

@@ -80,8 +80,8 @@ namespace BillingSystem
 
         private void btnClients_Click(object sender, EventArgs e)
         {
-            FrmClients frmCliente = new FrmClients();
-            OpenForm(frmCliente);
+            FrmClientsList frmClientsList = new FrmClientsList();
+            OpenForm(frmClientsList);
         }
 
         private void OpenForm(Form formHijo)
@@ -107,6 +107,18 @@ namespace BillingSystem
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            FrmProductsList frmProductsList = new FrmProductsList();
+            OpenForm(frmProductsList);
+        }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            FrmCategoriesList frmCategoriesList = new FrmCategoriesList();
+            OpenForm(frmCategoriesList);
         }
     }
 }

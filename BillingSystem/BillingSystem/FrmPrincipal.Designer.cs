@@ -35,6 +35,7 @@
             pictureBox2 = new PictureBox();
             button1 = new Button();
             Tablas = new TabPage();
+            button2 = new Button();
             btnProducts = new Button();
             btnCategories = new Button();
             btnClients = new Button();
@@ -42,9 +43,12 @@
             Facturación = new TabPage();
             pictureBox4 = new PictureBox();
             Seguridad = new TabPage();
+            button3 = new Button();
             pictureBox1 = new PictureBox();
             Acerca = new TabPage();
+            button4 = new Button();
             pictureBox5 = new PictureBox();
+            plnCover = new Panel();
             PnlPrincipal = new Panel();
             pnlContainer = new Panel();
             PanelTop = new Krypton.Toolkit.KryptonPanel();
@@ -53,7 +57,8 @@
             btnAbout = new Button();
             btnBilling = new Button();
             btnPrincipal = new Button();
-            plnCover = new Panel();
+            btnBills = new Button();
+            btnEmployees = new Button();
             PnlMenu.SuspendLayout();
             TbpMenu.SuspendLayout();
             Principal.SuspendLayout();
@@ -67,6 +72,7 @@
             Acerca.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             PnlPrincipal.SuspendLayout();
+            pnlContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)PanelTop).BeginInit();
             PanelTop.SuspendLayout();
             SuspendLayout();
@@ -138,6 +144,9 @@
             // Tablas
             // 
             Tablas.BackColor = Color.White;
+            Tablas.Controls.Add(btnEmployees);
+            Tablas.Controls.Add(btnBills);
+            Tablas.Controls.Add(button2);
             Tablas.Controls.Add(btnProducts);
             Tablas.Controls.Add(btnCategories);
             Tablas.Controls.Add(btnClients);
@@ -150,6 +159,23 @@
             Tablas.TabIndex = 1;
             Tablas.Text = "Admin Tablas";
             Tablas.Click += Tablas_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonShadow;
+            button2.FlatAppearance.BorderColor = Color.White;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.White;
+            button2.FlatAppearance.MouseOverBackColor = Color.Black;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = SystemColors.Window;
+            button2.Location = new Point(1, 442);
+            button2.Name = "button2";
+            button2.Size = new Size(190, 36);
+            button2.TabIndex = 7;
+            button2.Text = "Salir";
+            button2.UseVisualStyleBackColor = false;
             // 
             // btnProducts
             // 
@@ -169,6 +195,7 @@
             btnProducts.TabIndex = 6;
             btnProducts.Text = "Productos";
             btnProducts.UseVisualStyleBackColor = false;
+            btnProducts.Click += btnProducts_Click;
             // 
             // btnCategories
             // 
@@ -188,6 +215,7 @@
             btnCategories.TabIndex = 5;
             btnCategories.Text = "Categorias";
             btnCategories.UseVisualStyleBackColor = false;
+            btnCategories.Click += btnCategories_Click;
             // 
             // btnClients
             // 
@@ -243,12 +271,30 @@
             // Seguridad
             // 
             Seguridad.BackColor = Color.White;
+            Seguridad.Controls.Add(button3);
             Seguridad.Controls.Add(pictureBox1);
             Seguridad.Location = new Point(4, 30);
             Seguridad.Name = "Seguridad";
             Seguridad.Size = new Size(192, 589);
             Seguridad.TabIndex = 3;
             Seguridad.Text = "Seguridad";
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ButtonShadow;
+            button3.FlatAppearance.BorderColor = Color.White;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.White;
+            button3.FlatAppearance.MouseOverBackColor = Color.Black;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.ForeColor = SystemColors.Window;
+            button3.Location = new Point(0, 161);
+            button3.Name = "button3";
+            button3.Size = new Size(190, 36);
+            button3.TabIndex = 4;
+            button3.Text = "Salir";
+            button3.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -263,6 +309,7 @@
             // Acerca
             // 
             Acerca.BackColor = Color.White;
+            Acerca.Controls.Add(button4);
             Acerca.Controls.Add(pictureBox5);
             Acerca.ForeColor = SystemColors.ButtonHighlight;
             Acerca.Location = new Point(4, 30);
@@ -270,6 +317,23 @@
             Acerca.Size = new Size(192, 589);
             Acerca.TabIndex = 4;
             Acerca.Text = "Acerca de..";
+            // 
+            // button4
+            // 
+            button4.BackColor = SystemColors.ButtonShadow;
+            button4.FlatAppearance.BorderColor = Color.White;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseDownBackColor = Color.White;
+            button4.FlatAppearance.MouseOverBackColor = Color.Black;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button4.ForeColor = SystemColors.Window;
+            button4.Location = new Point(0, 171);
+            button4.Name = "button4";
+            button4.Size = new Size(192, 36);
+            button4.TabIndex = 4;
+            button4.Text = "Salir";
+            button4.UseVisualStyleBackColor = false;
             // 
             // pictureBox5
             // 
@@ -280,6 +344,14 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 3;
             pictureBox5.TabStop = false;
+            // 
+            // plnCover
+            // 
+            plnCover.BackColor = SystemColors.ButtonHighlight;
+            plnCover.Location = new Point(5, 8);
+            plnCover.Name = "plnCover";
+            plnCover.Size = new Size(193, 31);
+            plnCover.TabIndex = 2;
             // 
             // PnlPrincipal
             // 
@@ -295,6 +367,7 @@
             // pnlContainer
             // 
             pnlContainer.BorderStyle = BorderStyle.FixedSingle;
+            pnlContainer.Controls.Add(plnCover);
             pnlContainer.Dock = DockStyle.Fill;
             pnlContainer.Location = new Point(200, 0);
             pnlContainer.Name = "pnlContainer";
@@ -417,20 +490,49 @@
             btnPrincipal.Text = "Principal";
             btnPrincipal.UseVisualStyleBackColor = false;
             // 
-            // plnCover
+            // btnBills
             // 
-            plnCover.BackColor = SystemColors.ButtonHighlight;
-            plnCover.Location = new Point(0, 64);
-            plnCover.Name = "plnCover";
-            plnCover.Size = new Size(193, 31);
-            plnCover.TabIndex = 2;
+            btnBills.BackColor = SystemColors.ButtonShadow;
+            btnBills.FlatAppearance.BorderColor = Color.White;
+            btnBills.FlatAppearance.BorderSize = 0;
+            btnBills.FlatAppearance.MouseDownBackColor = Color.White;
+            btnBills.FlatAppearance.MouseOverBackColor = Color.Black;
+            btnBills.FlatStyle = FlatStyle.Flat;
+            btnBills.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBills.ForeColor = SystemColors.Window;
+            btnBills.Image = Properties.Resources.clients_icon;
+            btnBills.ImageAlign = ContentAlignment.MiddleLeft;
+            btnBills.Location = new Point(1, 265);
+            btnBills.Name = "btnBills";
+            btnBills.Size = new Size(191, 36);
+            btnBills.TabIndex = 8;
+            btnBills.Text = "Facturas";
+            btnBills.UseVisualStyleBackColor = false;
+            // 
+            // btnEmployees
+            // 
+            btnEmployees.BackColor = SystemColors.ButtonShadow;
+            btnEmployees.FlatAppearance.BorderColor = Color.White;
+            btnEmployees.FlatAppearance.BorderSize = 0;
+            btnEmployees.FlatAppearance.MouseDownBackColor = Color.White;
+            btnEmployees.FlatAppearance.MouseOverBackColor = Color.Black;
+            btnEmployees.FlatStyle = FlatStyle.Flat;
+            btnEmployees.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEmployees.ForeColor = SystemColors.Window;
+            btnEmployees.Image = Properties.Resources.clients_icon;
+            btnEmployees.ImageAlign = ContentAlignment.MiddleLeft;
+            btnEmployees.Location = new Point(1, 307);
+            btnEmployees.Name = "btnEmployees";
+            btnEmployees.Size = new Size(191, 36);
+            btnEmployees.TabIndex = 9;
+            btnEmployees.Text = "Empleados";
+            btnEmployees.UseVisualStyleBackColor = false;
             // 
             // FrmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1184, 611);
-            Controls.Add(plnCover);
             Controls.Add(PanelTop);
             Controls.Add(PnlPrincipal);
             Name = "FrmPrincipal";
@@ -451,6 +553,7 @@
             Acerca.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             PnlPrincipal.ResumeLayout(false);
+            pnlContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)PanelTop).EndInit();
             PanelTop.ResumeLayout(false);
             ResumeLayout(false);
@@ -484,5 +587,10 @@
         private Button button1;
         private Panel plnCover;
         private PictureBox pictureBox5;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button btnEmployees;
+        private Button btnBills;
     }
 }

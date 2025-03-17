@@ -28,24 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             lblTitulo = new Label();
             btnUpdate = new Button();
-            btnDelete = new Button();
-            btnSearch = new Button();
             btnExit = new Button();
-            btnNew = new Button();
-            dgClients = new DataGridView();
             gpbClientInfo = new GroupBox();
             txtAddress = new Krypton.Toolkit.KryptonMaskedTextBox();
             txtName = new Krypton.Toolkit.KryptonMaskedTextBox();
             txtPhone = new Krypton.Toolkit.KryptonMaskedTextBox();
             txtEmail = new Krypton.Toolkit.KryptonMaskedTextBox();
             txtDocument = new Krypton.Toolkit.KryptonMaskedTextBox();
-            txtSearchClient = new Krypton.Toolkit.KryptonMaskedTextBox();
-            gpbDataGrid = new GroupBox();
-            ((System.ComponentModel.ISupportInitialize)dgClients).BeginInit();
+            errorMessage = new ErrorProvider(components);
             gpbClientInfo.SuspendLayout();
-            gpbDataGrid.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)errorMessage).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -53,11 +48,12 @@
             lblTitulo.AutoSize = true;
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(375, 32);
+            lblTitulo.Location = new Point(173, 46);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(240, 20);
+            lblTitulo.Size = new Size(224, 20);
             lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "ADMINISTRACIÓN DE CLIENTES ";
+            lblTitulo.Text = "ACTUALIZACIÓN DE CLIENTES";
+            lblTitulo.Click += lblTitulo_Click;
             // 
             // btnUpdate
             // 
@@ -66,44 +62,14 @@
             btnUpdate.FlatStyle = FlatStyle.Flat;
             btnUpdate.Font = new Font("Segoe UI", 9F);
             btnUpdate.ForeColor = SystemColors.ButtonFace;
-            btnUpdate.Location = new Point(839, 150);
+            btnUpdate.Location = new Point(94, 299);
             btnUpdate.Margin = new Padding(0);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(110, 31);
             btnUpdate.TabIndex = 7;
             btnUpdate.Text = "ACTUALIZAR";
             btnUpdate.UseVisualStyleBackColor = false;
-            btnUpdate.Click += button1_Click;
-            // 
-            // btnDelete
-            // 
-            btnDelete.AutoSize = true;
-            btnDelete.BackColor = Color.FromArgb(69, 90, 100);
-            btnDelete.FlatStyle = FlatStyle.Flat;
-            btnDelete.Font = new Font("Segoe UI", 9F);
-            btnDelete.ForeColor = SystemColors.ButtonFace;
-            btnDelete.Location = new Point(839, 200);
-            btnDelete.Margin = new Padding(0);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(110, 31);
-            btnDelete.TabIndex = 8;
-            btnDelete.Text = "ELIMINAR";
-            btnDelete.UseVisualStyleBackColor = false;
-            // 
-            // btnSearch
-            // 
-            btnSearch.AutoSize = true;
-            btnSearch.BackColor = Color.FromArgb(69, 90, 100);
-            btnSearch.FlatStyle = FlatStyle.Flat;
-            btnSearch.Font = new Font("Segoe UI", 9F);
-            btnSearch.ForeColor = SystemColors.ButtonFace;
-            btnSearch.Location = new Point(653, 19);
-            btnSearch.Margin = new Padding(0);
-            btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(80, 31);
-            btnSearch.TabIndex = 9;
-            btnSearch.Text = "BUSCAR";
-            btnSearch.UseVisualStyleBackColor = false;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnExit
             // 
@@ -112,7 +78,7 @@
             btnExit.FlatStyle = FlatStyle.Flat;
             btnExit.Font = new Font("Segoe UI", 9F);
             btnExit.ForeColor = SystemColors.ButtonFace;
-            btnExit.Location = new Point(839, 450);
+            btnExit.Location = new Point(296, 299);
             btnExit.Margin = new Padding(0);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(110, 31);
@@ -121,44 +87,19 @@
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
-            // btnNew
-            // 
-            btnNew.AutoSize = true;
-            btnNew.BackColor = Color.FromArgb(69, 90, 100);
-            btnNew.FlatStyle = FlatStyle.Flat;
-            btnNew.Font = new Font("Segoe UI", 9F);
-            btnNew.ForeColor = SystemColors.ButtonFace;
-            btnNew.Location = new Point(839, 102);
-            btnNew.Margin = new Padding(0);
-            btnNew.Name = "btnNew";
-            btnNew.Size = new Size(110, 31);
-            btnNew.TabIndex = 12;
-            btnNew.Text = "NUEVO";
-            btnNew.UseVisualStyleBackColor = false;
-            btnNew.Click += btnNew_Click;
-            // 
-            // dgClients
-            // 
-            dgClients.BackgroundColor = SystemColors.ButtonHighlight;
-            dgClients.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgClients.GridColor = SystemColors.ActiveCaptionText;
-            dgClients.Location = new Point(19, 62);
-            dgClients.Name = "dgClients";
-            dgClients.Size = new Size(729, 93);
-            dgClients.TabIndex = 13;
-            dgClients.CellContentClick += dgClients_CellContentClick;
-            // 
             // gpbClientInfo
             // 
             gpbClientInfo.BackColor = Color.Transparent;
             gpbClientInfo.Controls.Add(txtAddress);
+            gpbClientInfo.Controls.Add(btnExit);
             gpbClientInfo.Controls.Add(txtName);
             gpbClientInfo.Controls.Add(txtPhone);
+            gpbClientInfo.Controls.Add(btnUpdate);
             gpbClientInfo.Controls.Add(txtEmail);
             gpbClientInfo.Controls.Add(txtDocument);
             gpbClientInfo.Location = new Point(38, 92);
             gpbClientInfo.Name = "gpbClientInfo";
-            gpbClientInfo.Size = new Size(781, 261);
+            gpbClientInfo.Size = new Size(494, 389);
             gpbClientInfo.TabIndex = 14;
             gpbClientInfo.TabStop = false;
             // 
@@ -245,56 +186,24 @@
             txtDocument.StateCommon.Content.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtDocument.TabIndex = 4;
             // 
-            // txtSearchClient
+            // errorMessage
             // 
-            txtSearchClient.BeepOnError = true;
-            txtSearchClient.Cursor = Cursors.IBeam;
-            txtSearchClient.Hint = "Buscar Cliente";
-            txtSearchClient.Location = new Point(37, 22);
-            txtSearchClient.Name = "txtSearchClient";
-            txtSearchClient.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007Blue;
-            txtSearchClient.Size = new Size(613, 21);
-            txtSearchClient.StateActive.Back.Color1 = SystemColors.Control;
-            txtSearchClient.StateCommon.Border.DrawBorders = Krypton.Toolkit.PaletteDrawBorders.Bottom;
-            txtSearchClient.StateCommon.Content.Color1 = Color.DimGray;
-            txtSearchClient.StateCommon.Content.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSearchClient.StateNormal.Back.Color1 = SystemColors.ButtonFace;
-            txtSearchClient.StateNormal.Content.Color1 = SystemColors.ActiveCaption;
-            txtSearchClient.TabIndex = 6;
+            errorMessage.ContainerControl = this;
             // 
-            // gpbDataGrid
-            // 
-            gpbDataGrid.BackColor = Color.Transparent;
-            gpbDataGrid.Controls.Add(txtSearchClient);
-            gpbDataGrid.Controls.Add(dgClients);
-            gpbDataGrid.Controls.Add(btnSearch);
-            gpbDataGrid.Location = new Point(38, 371);
-            gpbDataGrid.Name = "gpbDataGrid";
-            gpbDataGrid.Size = new Size(781, 174);
-            gpbDataGrid.TabIndex = 15;
-            gpbDataGrid.TabStop = false;
-            // 
-            // FrmClients
+            // FrmUpdateClients
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(989, 623);
+            ClientSize = new Size(572, 510);
             ControlBox = false;
-            Controls.Add(btnNew);
-            Controls.Add(btnExit);
-            Controls.Add(btnDelete);
-            Controls.Add(btnUpdate);
             Controls.Add(lblTitulo);
             Controls.Add(gpbClientInfo);
-            Controls.Add(gpbDataGrid);
-            Name = "FrmClients";
+            Name = "FrmUpdateClients";
             ShowInTaskbar = false;
             Load += FrmClients_Load;
-            ((System.ComponentModel.ISupportInitialize)dgClients).EndInit();
             gpbClientInfo.ResumeLayout(false);
             gpbClientInfo.PerformLayout();
-            gpbDataGrid.ResumeLayout(false);
-            gpbDataGrid.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)errorMessage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -303,18 +212,13 @@
 
         private Label lblTitulo;
         private Button btnUpdate;
-        private Button btnDelete;
-        private Button btnSearch;
         private Button btnExit;
-        private Button btnNew;
-        private DataGridView dgClients;
         private GroupBox gpbClientInfo;
-        private GroupBox gpbDataGrid;
         private Krypton.Toolkit.KryptonMaskedTextBox txtName;
         private Krypton.Toolkit.KryptonMaskedTextBox txtDocument;
         private Krypton.Toolkit.KryptonMaskedTextBox txtPhone;
-        private Krypton.Toolkit.KryptonMaskedTextBox txtSearchClient;
         private Krypton.Toolkit.KryptonMaskedTextBox txtAddress;
         private Krypton.Toolkit.KryptonMaskedTextBox txtEmail;
+        private ErrorProvider errorMessage;
     }
 }
