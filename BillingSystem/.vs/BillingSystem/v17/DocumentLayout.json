@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4467CB1F-17E2-4C90-BF7C-76A96B98B5FC}|BIllingSystem.setup\\BIllingSystem.setup.wixproj|C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BIllingSystem.setup\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4467CB1F-17E2-4C90-BF7C-76A96B98B5FC}|BIllingSystem.setup\\BIllingSystem.setup.wixproj|solutionrelative:BIllingSystem.setup\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmemployeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmemployeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\billingsystem\\frmemployeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmemployeeslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\billingsystem\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmbilling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmclientslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmclientslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\frmclientslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\frmclientslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|c:\\users\\sidny\\documents\\pascual bravo\\herramientas de programaci\u00F3n 3\\billingsystem\\billingsystem\\billingsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{ACFE91F4-0900-4FFF-9ABB-9C10FADB3BE3}|BillingSystem\\BillingSystem.csproj|solutionrelative:billingsystem\\billingsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 127,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -66,103 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmPrincipal.cs",
-              "RelativeToolTip": "BillingSystem\\FrmPrincipal.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAtwD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:32:00.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmEmployees.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployees.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmEmployees.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployees.cs",
-              "RelativeToolTip": "BillingSystem\\FrmEmployees.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBkAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:19:41.905Z",
+              "Title": "Product.wxs",
+              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BIllingSystem.setup\\Product.wxs",
+              "RelativeDocumentMoniker": "BIllingSystem.setup\\Product.wxs",
+              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BIllingSystem.setup\\Product.wxs",
+              "RelativeToolTip": "BIllingSystem.setup\\Product.wxs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAWwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T03:33:15.737Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmEmployees.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployees.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmEmployees.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployees.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BillingSystem\\FrmEmployees.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:19:27.172Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmEmployeesList.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployeesList.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmEmployeesList.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployeesList.cs",
-              "RelativeToolTip": "BillingSystem\\FrmEmployeesList.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAB9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:13:18.143Z",
+              "Title": "BillingSystem",
+              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\BillingSystem.csproj",
+              "RelativeDocumentMoniker": "BillingSystem\\BillingSystem.csproj",
+              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\BillingSystem.csproj",
+              "RelativeToolTip": "BillingSystem\\BillingSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T03:08:03.161Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmBilling.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmBilling.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmBilling.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmBilling.cs",
-              "RelativeToolTip": "BillingSystem\\FrmBilling.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T10:58:49.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmEmployeesList.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployeesList.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmEmployeesList.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmEmployeesList.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BillingSystem\\FrmEmployeesList.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:14:18.328Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmClients.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClients.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmClients.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClients.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BillingSystem\\FrmClients.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:34:52.422Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmBilling.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmBilling.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmBilling.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmBilling.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BillingSystem\\FrmBilling.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:45:07.035Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         },
@@ -191,65 +84,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "8266437f-dd60-46c5-9798-5910ee0274f8",
-        "Display": 0,
-        "X": 83,
-        "Y": 34,
-        "Width": 1154,
-        "Height": 730,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmClients.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClients.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmClients.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClients.cs",
-              "RelativeToolTip": "BillingSystem\\FrmClients.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAWwBwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:22:20.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmClientsList.cs",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClientsList.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmClientsList.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClientsList.cs",
-              "RelativeToolTip": "BillingSystem\\FrmClientsList.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowEIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:14:51.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmClientsList.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClientsList.cs",
-              "RelativeDocumentMoniker": "BillingSystem\\FrmClientsList.cs",
-              "ToolTip": "C:\\Users\\Sidny\\Documents\\Pascual Bravo\\Herramientas de programaci\u00F3n 3\\BillingSystem\\BillingSystem\\FrmClientsList.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BillingSystem\\FrmClientsList.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:16:11.832Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

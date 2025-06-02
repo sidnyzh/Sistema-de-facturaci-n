@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="BillingSystem" Version="1.0.0.0" Manufacturer="Sidny Zapata" Language="1033" UpgradeCode="{37d3a29b-b9aa-4eba-9370-54c4d351d6be}" Codepage="65001">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="Una versión más reciente de Billing System ya está instalada." />
+		<Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="BillingSystem">
+					<Component Id="MainExecutable" Guid="{47ABEFA6-A6D9-40C0-AF94-F5F15030329C}">
+						<File Id="BillingSystemEXE" Source="C:\Project\BillingSystem.exe" KeyPath="yes" />
+					</Component>
+					<Component Id="BillingSystemDLL" Guid="{2DC73C40-6868-449B-A4D0-9A4E0A576B03}">
+						<File Id="BillingSystemDLLFile" Source="C:\Project\BillingSystem.dll" />
+					</Component>
+					<Component Id="KryptonToolkitDLL" Guid="{169F07BC-BC8C-43DD-81F5-A57613F5F463}">
+						<File Id="KryptonToolkitDLLFile" Source="C:\Project\Krypton.Toolkit.dll" />
+					</Component>
+					<Component Id="MaterialSkinDLL" Guid="{12A34837-9EE0-440E-9DF4-0FFFDEF662FE}">
+						<File Id="MaterialSkinDLLFile" Source="C:\Project\MaterialSkin.dll" />
+					</Component>
+					<Component Id="MetroFrameworkDLL" Guid="{55687B7B-2951-466C-84D2-B3559078F293}">
+						<File Id="MetroFrameworkDLLFile" Source="C:\Project\MetroFramework.dll" />
+					</Component>
+					<Component Id="MetroFrameworkDesignDLL" Guid="{14385F93-FC76-4622-B4E5-D49CEEE782EA}">
+						<File Id="MetroFrameworkDesignDLLFile" Source="C:\Project\MetroFramework.Design.dll" />
+					</Component>
+					<Component Id="MetroFrameworkFontsDLL" Guid="{F0207E95-3B25-4983-A9B3-7422838BF1B5}">
+						<File Id="MetroFrameworkFontsDLLFile" Source="C:\Project\MetroFramework.Fonts.dll" />
+					</Component>
+					<Component Id="SystemDataSqlClientDLL" Guid="{1E178074-13CD-4846-B71A-7CF18D201883}">
+						<File Id="SystemDataSqlClientDLLFile" Source="C:\Project\System.Data.SqlClient.dll" />
+					</Component>
+					<Component Id="BillingSystemDepsJson" Guid="{9BDDB748-0E01-4491-8886-C97D8B197A2D}">
+						<File Id="BillingSystemDepsJsonFile" Source="C:\Project\BillingSystem.deps.json" />
+					</Component>
+					<Component Id="BillingSystemRuntimeConfigJson" Guid="{4D44107F-B7B8-4AE5-AC8E-4D948C74ECFB}">
+						<File Id="BillingSystemRuntimeConfigFile" Source="C:\Project\BillingSystem.runtimeconfig.json" />
+					</Component>
+				</Directory>
+			</Directory>
+			<Directory Id="DesktopFolder" Name="Desktop">
+				<Component Id="DesktopShortcut" Guid="{32B496D4-C00E-45D5-A735-D45AE146FA74}">
+					<Shortcut Id="ApplicationShortcut" Name="BillingSystem" Target="[INSTALLFOLDER]BillingSystem.exe" WorkingDirectory="INSTALLFOLDER" />
+					<RemoveFolder Id="RemoveDesktopShortcut" Directory="DesktopFolder" On="uninstall" />
+				</Component>
+			</Directory>
+		</Directory>
+
+		<Feature Id="ProductFeature" Title="BillingSystem" Level="1">
+			<ComponentRef Id="MainExecutable" />
+			<ComponentRef Id="BillingSystemDLL" />
+			<ComponentRef Id="KryptonToolkitDLL" />
+			<ComponentRef Id="MaterialSkinDLL" />
+			<ComponentRef Id="MetroFrameworkDLL" />
+			<ComponentRef Id="MetroFrameworkDesignDLL" />
+			<ComponentRef Id="MetroFrameworkFontsDLL" />
+			<ComponentRef Id="SystemDataSqlClientDLL" />
+			<ComponentRef Id="BillingSystemDepsJson" />
+			<ComponentRef Id="BillingSystemRuntimeConfigJson" />
+			<ComponentRef Id="DesktopShortcut" />
+		</Feature>
+	</Product>
+</Wix>
